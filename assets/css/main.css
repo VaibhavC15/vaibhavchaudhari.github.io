@@ -4866,7 +4866,7 @@ input, select, textarea {
 		background-color: #f0f0f0;
 		border-radius: 2px;
 		height: 10px;
-		margin-bottom: 5px;
+		margin-bottom: 0px;
   		margin-top: 0px;
   		margin-left: 1px;
   		margin-right: 1px;
@@ -4875,22 +4875,27 @@ input, select, textarea {
 	  .skill-category {
 		font-weight: bold;
 		color: #333;
+		margin-top: 10px;
 		margin-bottom: 10px;
 		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 	  }
 	  
 	  .skill-level {
 		height: 80%;
-		border-radius: 4px;
+		border-radius: 10px;
 	  }
 	  
 	  .skill-level-python {
+		width: 80%; /* Adjust the skill level as desired */
+		background-color: #616161; /* Adjust the color for HTML skill */
+	  }
+	  .skill-level-pyspark {
 		width: 70%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for HTML skill */
 	  }
 	  
 	  .skill-level-r {
-		width: 70%; /* Adjust the skill level as desired */
+		width: 80%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for CSS skill */
 	  }
 	  
@@ -4902,16 +4907,24 @@ input, select, textarea {
 		width: 80%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for JavaScript skill */
 	  }
+	  .skill-level-snowflake {
+		width: 80%; /* Adjust the skill level as desired */
+		background-color: #616161; /* Adjust the color for JavaScript skill */
+	  }
+	  .skill-level-dbt {
+		width: 80%; /* Adjust the skill level as desired */
+		background-color: #616161; /* Adjust the color for JavaScript skill */
+	  }
 	  .skill-level-excel {
 		width: 90%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for JavaScript skill */
 	  }
 	  .skill-level-aws {
-		width: 60%; /* Adjust the skill level as desired */
+		width: 70%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for JavaScript skill */
 	  }
 	  .skill-level-gooana {
-		width: 70%; /* Adjust the skill level as desired */
+		width: 80%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for JavaScript skill */
 	  }
 	  .skill-level-datamining {
@@ -4919,19 +4932,23 @@ input, select, textarea {
 		background-color: #616161; /* Adjust the color for JavaScript skill */
 	  }
 	  .skill-level-predmod {
-		width: 70%; /* Adjust the skill level as desired */
+		width: 80%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for JavaScript skill */
 	  }
 	  .skill-level-macler {
-		width: 70%; /* Adjust the skill level as desired */
+		width: 80%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for JavaScript skill */
 	  }
 	  .skill-level-statana {
-		width: 70%; /* Adjust the skill level as desired */
+		width: 80%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for JavaScript skill */
 	  }
 	  .skill-level-datamod {
-		width: 70%; /* Adjust the skill level as desired */
+		width: 80%; /* Adjust the skill level as desired */
+		background-color: #616161; /* Adjust the color for JavaScript skill */
+	  }
+	  .skill-level-etl {
+		width: 80%; /* Adjust the skill level as desired */
 		background-color: #616161; /* Adjust the color for JavaScript skill */
 	  }
 
@@ -4947,7 +4964,7 @@ input, select, textarea {
 	}
 
 		#main1 > * {
-			padding: 0rem 1rem 1rem 10rem ;
+			padding: 0rem 1rem 0.5rem 6rem ;
 			border-top: solid 2px #ffffff;
 			margin: 5;
 		}
